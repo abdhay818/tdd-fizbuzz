@@ -14,5 +14,20 @@ describe('fizzBuzz( )', ( ) => {
         expect(fizzBuzz(44)).toBe('44');
         expect(fizzBuzz(7)).toBe('7');
     });
-    
+
+    it('returns "Fizz" for multiplies of 3', ( ) => {
+        expect(fizzBuzz(3)).toBe('Fizz');
+        expect(fizzBuzz(6)).toBe('Fizz');
+        expect(fizzBuzz(9)).toBe('Fizz');
+        expect(fizzBuzz(99)).toBe('Fizz');
+    });
+
+    it('returns "Buzz" for multiplies of 5', ( ) => {
+        expect(fizzBuzz(5)).toBe('Buzz');
+        expect(fizzBuzz(10)).toBe('Buzz');
+        expect(fizzBuzz(25)).toBe('Buzz');
+        expect(fizzBuzz(100)).toBe('Buzz');
+    });
+
+
 });
