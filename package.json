@@ -1,0 +1,20 @@
+{
+  "name": "tdd-fizbuzz",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Hay first TDD-React Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "tdd",
+    "react",
+    "js"
+  ],
+  "author": "Muhamad Abdul Hay",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
